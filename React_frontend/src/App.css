@@ -350,3 +350,10 @@ input{
     justify-content: center;
     align-items: center;
   }
+
+  .radio-group-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  

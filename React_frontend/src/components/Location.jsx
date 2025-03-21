@@ -13,9 +13,6 @@ function Location({setSelCont}) {
 
   return (
     <div className="form-control">
-      <label htmlFor="country-select" className="required-label">
-        Location *
-      </label>
       <select
         id="country-select"
         value={selectedCountry}
