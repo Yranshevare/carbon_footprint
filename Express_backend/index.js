@@ -68,10 +68,10 @@ async function suggestion(data) {
         const client = new LangflowClient({langflowId, apiKey})
         const flow = client.flow(flowId)
         console.log("lll")
-        const result = await flow.run(JSON.stringify(data))
-        console.log(result.outputs[0].outputs)
+        // const result = await flow.run(JSON.stringify(data))
+        // console.log(result.outputs[0].outputs)
         console.log("fetch complete")
-        return result.chatOutputText()
+        // return result.chatOutputText()
     } catch (error) {
         console.log(error.message)
     }
@@ -135,7 +135,7 @@ async function suggestion(data) {
     'This detailed breakdown allows for easier integration into a user-friendly frontend interface, providing clear and actionable steps for the user to reduce their carbon footprint.  Remember to use clear and concise language, avoiding technical jargon.\n'
     `
    
-    // return res
+    return res
 
 }
 
@@ -314,7 +314,7 @@ app.post('/calculate', async(req, res) => {
         // console.log(CFwast,"kg")
         
         const  info = {...data,carbon_footPrints:{CFcar,CFelectricity,CFfood,CFwast}}
-        console.log(info)
+        // console.log(info)
         const suggests = await suggestion(info)
 
         const totalEmission = CFcar + CFelectricity + CFfood + CFwast
