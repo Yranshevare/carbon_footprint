@@ -4,6 +4,7 @@ import { useParams} from "react-router-dom"
 import markdownit from 'markdown-it'
 import { Chart, Tooltip, Legend, ArcElement } from 'chart.js'
 import { Pie } from 'react-chartjs-2'
+import { ThreeDot } from "react-loading-indicators";
 
 Chart.register(Tooltip, Legend, ArcElement)
 export default function Result(){
@@ -73,7 +74,7 @@ export default function Result(){
         }
     }
     const piedata = {
-        labels: ['Car', 'electricity', 'food', 'waste'],
+        labels: [`Car: ${CFdata?.carbonEmission.car} KgCo2e`, `electricity: ${CFdata?.carbonEmission.electricity} KgCo2e`, `food: ${ CFdata?.carbonEmission.food} KgCo2e`, `waste: ${CFdata?.carbonEmission.waste} KgCo2e`],
         datasets: [
           {
             label: '# of Votes',
@@ -82,17 +83,13 @@ export default function Result(){
               'rgba(255, 99, 132, 0.2)',
               'rgba(54, 162, 235, 0.2)',
               'rgba(255, 206, 86, 0.2)',    
-              'rgba(75, 192, 192, 0.2)',
-              'rgba(153, 102, 255, 0.2)',
-              'rgba(255, 159, 64, 0.2)'
+              'rgba(57, 198, 104, 0.2)',
             ],
             borderColor: [
               'rgba(255, 99, 132, 1)',
               'rgba(54, 162, 235, 1)',
               'rgba(255, 206, 86, 1)',
               'rgba(75, 192, 192, 1)',
-              'rgba(153, 102, 255, 1)',
-              'rgba(255, 159, 64, 1)'
             ],
             hoverOffset: 10
         }]
@@ -101,18 +98,29 @@ export default function Result(){
     return(
         !loading?
         <>
-        <h1>total: {CFdata?.carbonEmission.total}kgCo2e</h1>
-        <h1>{CFdata?.carbonEmission.range}</h1>
-        <div style={{ width: '80%', height: '80%' }}>
-            <Pie 
-            options={options}
-            data={piedata}
-            />
+        <div className="result-contanier">
+            <h1>Total: {CFdata?.carbonEmission.total.toFixed(2)} kgCo2e ({CFdata?.carbonEmission.range})</h1>
+            <div className="chart-div">
+                <div 
+                className="pie-chart"
+                style={{  height: '100%' }}>
+                    <Pie 
+                    options={options}
+                    data={piedata}
+                    />
+                </div>
+            </div>
+            <div className="chart-suggestion">
+            <div 
+            className="suggetions"
+            dangerouslySetInnerHTML={{ __html: mdContent }} />
+            </div>
         </div>
-        <div dangerouslySetInnerHTML={{ __html: mdContent }} />
         </>
 
         :
-        <div>loading...</div>
+        <div className="loader">
+        <ThreeDot color="#d6d6d6" size="small" text="" textColor="" />
+        </div>
     )
 }
