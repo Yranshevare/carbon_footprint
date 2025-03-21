@@ -1,0 +1,50 @@
+{
+  "food_categories": [
+    {
+      "category": "Vegetables",
+      "carbon_intensity_kg_co2_per_kg": "0.5"
+    },
+    {
+      "category": "Fruits",
+      "carbon_intensity_kg_co2_per_kg": "0.8"
+    },
+    {
+      "category": "Dairy Products",
+      "carbon_intensity_kg_co2_per_kg": "5"
+    },
+    {
+      "category": "Meat",
+      "subType": [
+          {
+      	  	"type": "Beef",
+      	  	"carbon_intensity_kg_co2_per_kg": 27
+    	  },
+    	  {
+      		"type": "Pork",
+      		"carbon_intensity_kg_co2_per_kg": 12
+    	  },
+    	  {
+      		"type": "Chicken",
+      		"carbon_intensity_kg_co2_per_kg": 6
+    	  }
+       ],
+       "carbon_intensity_kg_co2_per_kg": 15
+    },
+    {
+      "category": "Processed Foods",
+      "carbon_intensity_kg_co2_per_kg": "5"
+    },
+    {
+      "category": "Nuts and Seeds",
+      "carbon_intensity_kg_co2_per_kg": "3.0"
+    },
+    {
+      "category": "Seafood",
+      "carbon_intensity_kg_co2_per_kg": "5.0"
+    },
+    {
+      "category": "Beverages",
+      "carbon_intensity_kg_co2_per_kg": "2.0"
+    }
+  ]
+}

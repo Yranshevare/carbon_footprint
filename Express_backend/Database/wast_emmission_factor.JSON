@@ -1,0 +1,32 @@
+{
+  "waste_types": [
+    {
+      "type": "Food Waste",
+      "emission_factor_kg_co2_per_kg": 1.0
+    },
+    {
+      "type": "Paper Waste",
+      "emission_factor_kg_co2_per_kg": 1.3
+    },
+    {
+      "type": "Plastic Waste",
+      "emission_factor_kg_co2_per_kg": 6.0
+    },
+    {
+      "type": "Glass Waste",
+      "emission_factor_kg_co2_per_kg": 0.15
+    },
+    {
+      "type": "Organic Waste",
+      "emission_factor_kg_co2_per_kg": 0.6
+    },
+    {
+      "type": "Electronic Waste (e-waste)",
+      "emission_factor_kg_co2_per_kg": 3.5
+    },
+    {
+      "type": "Textile Waste",
+      "emission_factor_kg_co2_per_kg": 3.0
+    }
+  ]
+}

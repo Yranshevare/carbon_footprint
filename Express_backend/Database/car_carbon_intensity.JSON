@@ -1,0 +1,64 @@
+{
+  "transportation": [
+    {
+      "vehicle_type": "Gasoline Car",
+      "carbon_intensity_kg_co2_per_km": 0.20,
+      "carbon_intensity_kg_co2_per_mile": 0.32
+    },
+    {
+      "vehicle_type": "Diesel Car",
+      "carbon_intensity_kg_co2_per_km": 0.21,
+      "carbon_intensity_kg_co2_per_mile": 0.34
+    },
+    {
+      "vehicle_type": "Electric Vehicle (Green Grid)",
+      "carbon_intensity_kg_co2_per_km": 0.04,
+      "carbon_intensity_kg_co2_per_mile": 0.06
+    },
+    {
+      "vehicle_type": "Electric Vehicle (Fossil Fuel Grid)",
+      "carbon_intensity_kg_co2_per_km": 0.23,
+      "carbon_intensity_kg_co2_per_mile": 0.37
+    },
+    {
+      "vehicle_type": "Hybrid Car",
+      "carbon_intensity_kg_co2_per_km": 0.13,
+      "carbon_intensity_kg_co2_per_mile": 0.21
+    },
+    {
+      "vehicle_type": "Natural Gas Vehicle (CNG)",
+      "carbon_intensity_kg_co2_per_km": 0.14,
+      "carbon_intensity_kg_co2_per_mile": 0.22
+    },
+    {
+      "vehicle_type": "Bus (Diesel-Powered)",
+      "carbon_intensity_kg_co2_per_km": 0.70,
+      "carbon_intensity_kg_co2_per_mile": 1.10
+    },
+    {
+      "vehicle_type": "Truck (Diesel-Powered)",
+      "carbon_intensity_kg_co2_per_km": 0.95,
+      "carbon_intensity_kg_co2_per_mile": 1.50
+    },
+    {
+      "vehicle_type": "Motorcycle (Gasoline)",
+      "carbon_intensity_kg_co2_per_km": 0.11,
+      "carbon_intensity_kg_co2_per_mile": 0.18
+    },
+    {
+      "vehicle_type": "Air Travel (Commercial Flight)",
+      "carbon_intensity_kg_co2_per_km": 0.20,
+      "carbon_intensity_kg_co2_per_mile": 0.32
+    },
+    {
+      "vehicle_type": "Electric Train",
+      "carbon_intensity_kg_co2_per_km": 0.02,
+      "carbon_intensity_kg_co2_per_mile": 0.03
+    },
+    {
+      "vehicle_type": "Diesel Train",
+      "carbon_intensity_kg_co2_per_km": 0.30,
+      "carbon_intensity_kg_co2_per_mile": 0.48
+    }
+  ]
+}

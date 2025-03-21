@@ -1,0 +1,27 @@
+/* Container for the radio buttons */
+.radio-group-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  /* Style for each radio label */
+  .radio-label {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    cursor: pointer;
+    color: #333;
+  }
+  
+  /* Style for the radio input */
+  .radio-label input[type="radio"] {
+    margin-right: 8px;
+    accent-color: #10552e; /* Custom color for radio button */
+  }
+  
+  /* Checked state custom color */
+  .radio-label input[type="radio"]:checked {
+    accent-color: #10552e;
+  }
+  

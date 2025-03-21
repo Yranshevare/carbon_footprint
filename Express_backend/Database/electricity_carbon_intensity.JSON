@@ -1,0 +1,89 @@
+{
+    "electricities": [
+      {
+        "country": "Norway",
+        "carbon_intensity_kg_co2_per_kwh": 0.05
+      },
+      {
+        "country": "Iceland",
+        "carbon_intensity_kg_co2_per_kwh": 0.05
+      },
+      {
+        "country": "France",
+        "carbon_intensity_kg_co2_per_kwh": 0.06
+      },
+      {
+        "country": "Sweden",
+        "carbon_intensity_kg_co2_per_kwh": 0.1
+      },
+      {
+        "country": "Canada",
+        "carbon_intensity_kg_co2_per_kwh": 0.1
+      },
+      {
+        "country": "Germany",
+        "carbon_intensity_kg_co2_per_kwh": 0.3
+      },
+      {
+        "country": "United Kingdom",
+        "carbon_intensity_kg_co2_per_kwh": 0.2
+      },
+      {
+        "country": "Denmark",
+        "carbon_intensity_kg_co2_per_kwh": 0.3
+      },
+      {
+        "country": "United States",
+        "carbon_intensity_kg_co2_per_kwh": 0.4
+      },
+      {
+        "country": "Australia",
+        "carbon_intensity_kg_co2_per_kwh": 0.9
+      },
+      {
+        "country": "India",
+        "carbon_intensity_kg_co2_per_kwh": 0.9
+      },
+      {
+        "country": "China",
+        "carbon_intensity_kg_co2_per_kwh": 0.8
+      },
+      {
+        "country": "South Africa",
+        "carbon_intensity_kg_co2_per_kwh": 1.0
+      },
+      {
+        "country": "Russia",
+        "carbon_intensity_kg_co2_per_kwh": 0.7
+      },
+      {
+        "country": "Brazil",
+        "carbon_intensity_kg_co2_per_kwh": 0.1
+      },
+      {
+        "country": "Japan",
+        "carbon_intensity_kg_co2_per_kwh": 0.5
+      },
+      {
+        "country": "Mexico",
+        "carbon_intensity_kg_co2_per_kwh": 0.5
+      },
+      {
+        "country": "Saudi Arabia",
+        "carbon_intensity_kg_co2_per_kwh": 0.3
+      },
+      {
+        "country": "UAE",
+        "carbon_intensity_kg_co2_per_kwh": 0.4
+      },
+      {
+        "country": "Argentina",
+        "carbon_intensity_kg_co2_per_kwh": 0.3
+      },
+      {
+        "country": "Turkey",
+        "carbon_intensity_kg_co2_per_kwh": 0.5
+      }
+    ]
+  }
+  

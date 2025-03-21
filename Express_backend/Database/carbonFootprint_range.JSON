@@ -1,0 +1,112 @@
+{
+  "country": [
+    {
+      "country": "Norway",
+      "carbon_footprint_range_kg": {
+        "daily": { "low": 5.5, "normal": 8.2, "high": 13.7 },
+        "week": { "low": 38.5, "normal": 57.3, "high": 95.5 },
+        "month": { "low": 162.3, "normal": 233.5, "high": 410.8 },
+        "year": { "low": 2000, "normal": 3000, "high": 5000 }
+      }
+    },
+    {
+      "country": "Iceland",
+      "carbon_footprint_range_kg": {
+        "daily": { "low": 5.5, "normal": 8.2, "high": 13.7 },
+        "week": { "low": 38.5, "normal": 57.3, "high": 95.5 },
+        "month": { "low": 162.3, "normal": 233.5, "high": 410.8 },
+        "year": { "low": 2000, "normal": 3000, "high": 5000 }
+      }
+    },
+    {
+      "country": "France",
+      "carbon_footprint_range_kg": {
+        "daily": { "low": 10.9, "normal": 13.7, "high": 19.1 },
+        "week": { "low": 76.2, "normal": 95.5, "high": 133.7 },
+        "month": { "low": 305.6, "normal": 410.8, "high": 533.7 },
+        "year": { "low": 4000, "normal": 5000, "high": 7000 }
+      }
+    },
+    {
+      "country": "Sweden",
+      "carbon_footprint_range_kg": {
+        "daily": { "low": 8.2, "normal": 10.9, "high": 16.4 },
+        "week": { "low": 57.3, "normal": 76.2, "high": 114.2 },
+        "month": { "low": 233.5, "normal": 305.6, "high": 410.8 },
+        "year": { "low": 3000, "normal": 4000, "high": 6000 }
+      }
+    },
+    {
+      "country": "Canada",
+      "carbon_footprint_range_kg": {
+        "daily": { "low": 27.4, "normal": 32.6, "high": 43.8 },
+        "week": { "low": 191.8, "normal": 228.2, "high": 305.6 },
+        "month": { "low": 775.5, "normal": 915.3, "high": 1267.2 },
+        "year": { "low": 10000, "normal": 12000, "high": 16000 }
+      }
+    },
+    {
+      "country": "Germany",
+      "carbon_footprint_range_kg": {
+        "daily": { "low": 19.2, "normal": 21.9, "high": 27.4 },
+        "week": { "low": 134.0, "normal": 153.6, "high": 191.8 },
+        "month": { "low": 536.2, "normal": 615.9, "high": 764.6 },
+        "year": { "low": 7000, "normal": 8000, "high": 10000 }
+      }
+    },
+    {
+      "country": "United Kingdom",
+      "carbon_footprint_range_kg": {
+        "daily": { "low": 13.7, "normal": 16.4, "high": 22.0 },
+        "week": { "low": 95.5, "normal": 114.2, "high": 153.6 },
+        "month": { "low": 410.8, "normal": 521.9, "high": 659.5 },
+        "year": { "low": 5000, "normal": 6000, "high": 8000 }
+      }
+    },
+    {
+      "country": "Denmark",
+      "carbon_footprint_range_kg": {
+        "daily": { "low": 16.4, "normal": 18.8, "high": 25.0 },
+        "week": { "low": 114.2, "normal": 131.2, "high": 175.0 },
+        "month": { "low": 459.7, "normal": 531.3, "high": 722.7 },
+        "year": { "low": 6000, "normal": 7000, "high": 9000 }
+      }
+    },
+    {
+      "country": "United States",
+      "carbon_footprint_range_kg": {
+        "daily": { "low": 32.9, "normal": 38.4, "high": 49.3 },
+        "week": { "low": 230.2, "normal": 268.8, "high": 344.4 },
+        "month": { "low": 927.4, "normal": 1075.5, "high": 1481.2 },
+        "year": { "low": 12000, "normal": 14000, "high": 18000 }
+      }
+    },
+    {
+      "country": "Australia",
+      "carbon_footprint_range_kg": {
+        "daily": { "low": 32.9, "normal": 35.6, "high": 49.3 },
+        "week": { "low": 230.2, "normal": 249.2, "high": 344.4 },
+        "month": { "low": 927.4, "normal": 1044.6, "high": 1481.2 },
+        "year": { "low": 12000, "normal": 13000, "high": 16000 }
+      }
+    },
+    {
+      "country": "India",
+      "carbon_footprint_range_kg": {
+        "daily": { "low": 2.7, "normal": 4.1, "high": 6.8 },
+        "week": { "low": 18.8, "normal": 28.6, "high": 47.7 },
+        "month": { "low": 75.6, "normal": 114.5, "high": 204.0 },
+        "year": { "low": 1000, "normal": 1500, "high": 2500 }
+      }
+    },
+    {
+      "country": "China",
+      "carbon_footprint_range_kg": {
+        "daily": { "low": 27.4, "normal": 32.6, "high": 43.8 },
+        "week": { "low": 191.8, "normal": 228.2, "high": 305.6 },
+        "month": { "low": 775.5, "normal": 915.3, "high": 1267.2 },
+        "year": { "low": 10000, "normal": 12000, "high": 16000 }
+      }
+    }
+  ]
+}
